@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.ControladorPCredits">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="786.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="64.0" fitWidth="50.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../AssetsSpaceWar/LogoPOOm@2x.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="626.0" layoutY="29.0" prefHeight="56.0" prefWidth="352.0" text="Space War" textFill="WHITE">
+         <font>
+            <Font name="Space Age" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="350.0" layoutY="458.0" text="Fonts ...... UMELERo" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="25.0" layoutY="511.0" mnemonicParsing="false" onAction="#IrInicio" text="Atrás" />
+      <Label layoutX="293.0" layoutY="98.0" text="Murryfly ...... Dictador gringo" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="46.0" text="Créditos" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Medium" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="185.0" text="Samanto ...... Porrista" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="339.0" layoutY="412.0" text="Yoquin ...... Comentarista" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="230.0" text="Serch ...... Diseñador mana!" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="272.0" text="Charlie ...... UMeLero" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="330.0" layoutY="317.0" text="Juanpa ...... UMElero" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="138.0" text="Sam Art ...... Esclavo" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="292.0" layoutY="369.0" text="MeliMoon ...... Prezista" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="497.0" text="Yisus ...... Prezista" textFill="WHITE">
+         <font>
+            <Font name="Arkitech Light" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+	Proyecto 2: Árboles Binarios
+
+	Equipo 2
+	Integrantes:
+	-Murrieta Villegas, Alfonso
+	-Reza Chavarria, Sergio Gabriel
+	-Valdespino Mendieta, Joaquín
+
+================================================
+================================================
+INSTRUCTIVO
+Para el uso del código de los árboles binarios 
+se especifica con cual tipo de árboles binarios 
+se desea trabajar.
+
+
+Especificaciones:
+
+
+Árboles binarios balanceados
+
+1)Se deben ingresar números enteros
+
+2)Al ingresar un valor repetido al árbol manda un mensaje al usuario y no se ingresa al árbol.
+
+3)En tal caso que no se haya creado el árbol y se selecciona "Mostrar árbol" y "Búsqueda" mandará un mensaje al usuario.
+
+4)Si no existe información en el árbol o el dato a eliminar no se encuentra actualamente, no manda mensaje alguno.
+
+Árboles binarios Heaps
+1)Se deben ingresar números enteros
+
+2)En tal caso que se ingrese un dato, el cual ya se encuentra en el heap no se ingresará
+
+3)En tal caso que no se haya creado el heap y se selecciona "Eliminar raíz" y "Búsqueda" mandará un mensaje al usuario.
+
+
+Árbol de Expresión Aritmética
+
+1) Escribir la expresión aritmética basándose en la notación polaca.
+
+2) Cualquier operación que se desee realizar, aparte de su respectivo operador y datos, necesita un par de paréntesis 
+Ejemplo: ((8+9)*(4*5))
+
+3) Los operadores aceptados son los siguientes:
+Adición o suma +
+Resta –
+División /
+Multiplicación *
+
+4) Nunca dejar dentro de los paréntesis solamente un valor 
+Ejemplo con resultado erróneo: ((8+9)*(4))
+Ejemplo con resultado correcto: ((8+9)*(4*1))
+
+4.1) Considerando lo anterior usted puede realizar las siguientes consideraciones para no tronar el programa
+	((8+9)*(4*1)) en vez de ((8+9)* (4))
+	((8+9)*(2+0)) en vez de ((8+9)* (2))
+
+5) Nunca olvide escribir los paréntesis generales de la expresión
+
+

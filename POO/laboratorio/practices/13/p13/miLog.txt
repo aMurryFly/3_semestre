@@ -1,0 +1,16 @@
+Fri Nov 16 21:15:34 CST 2018: Ingresó: 
+Fri Nov 16 21:15:38 CST 2018: ID: 192.168.100.231
+Fri Nov 16 21:15:38 CST 2018: Puerto: 9090
+Fri Nov 16 21:16:06 CST 2018: Jorge: hola ?
+Fri Nov 16 21:16:22 CST 2018: murry: hola D: ?
+Fri Nov 16 21:16:33 CST 2018: Jorge: rayos si funciona
+Fri Nov 16 21:16:44 CST 2018: murry: Sí man <3 jaja 
+Sat Nov 17 12:51:13 CST 2018: Ingresó: 
+Sat Nov 17 12:51:36 CST 2018: ID: 192.168.100.4
+Sat Nov 17 12:51:36 CST 2018: Puerto: 9090
+Sat Nov 17 12:52:04 CST 2018: Murry: hola :v
+Sat Nov 17 12:52:04 CST 2018: 
+Murry: hola :v
+Mon Jan 07 11:07:26 CST 2019: Ingresó: 
+Mon Jan 07 11:07:38 CST 2019: ID: 192.168.100.221
+Mon Jan 07 11:07:38 CST 2019: Puerto: 9090

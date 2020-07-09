@@ -1,0 +1,2 @@
+El código 2_quicksort(Sub-listas) a veces funciona con entradas pequeñas 
+pero casi nunca funciona por ello hice la versión quicksort(Sub-listas) en java (Ese sí funciona)

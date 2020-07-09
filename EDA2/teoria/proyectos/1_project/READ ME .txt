@@ -1,0 +1,36 @@
+MANUAL DE INSTRUCCIONES //UNICODE sin acentos
+
+NOTAS PREVIAS:
+La documentacion* (javadoc) se encuentra en la carpeta dist dentro de la carpeta del proyecto
+
+//El archivo de ejecucion* jar esta* en la carpeta dist dentro de la carpeta del proyecto
+_________________________________________________________________________________________________________
+
+Para la ejecucion* del programa: 
+
+1] Ejecutar el programa (el archivo .jar) a traves de linea de comandos o compilar el proyecto en el IDE de preferencia.
+
+2] Escribir el nombre del archivo que esta* dentro del proyecto
+NOTA: Sin la terminacion* .txt
+NOTA2: Si desea agregar un archivo simplemente coloque el archivo txt en la misma direccion* donde se ubican los archivos de 
+prueba o edite alguno de estos con los datos que sea ordenar.
+
+3] Una vez seleccionado el archivo, escoja alguno de los 3 metodos* de ordenamiento.
+
+4] Una vez que haya escogido alguno de los algoritmos, se mostrara* la opcion* de 
+ordenarlo ascendente como descendentemente (Escoger alguna opcion*)
+//Esperar a que se lleve el ordenamiento 
+
+5] Ver el mensaje de salida con su correspondiente ordenamiento
+
+NOTA: Puede verificar el contenido de los archivos directamente en el programa, o en el IDE que emplee, 
+en caso de quererlo ver por si mismo y sin "trucos aparentes" los archivos txt auxiliares se ubican en 
+sub-carpetas que las puede encontrar en 1_Proyecto_Final\Murrieta_Reza_Valdespino_Equipo2_G5_Proyecto1\src\murrieta_reza_valdespino_equipo2_g5_proyecto1
+
+LETS RUN THIS :)
+
+ATTE: Equipo 2
+
+
+
+

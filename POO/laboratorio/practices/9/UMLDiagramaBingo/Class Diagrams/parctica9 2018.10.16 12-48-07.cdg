@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="parctica9">
+  <ClassDiagramComponents>
+    <Class name="Aleatorio" package="parctica9" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="numero" type="int" visibility="package"/>
+        <Field name="random" type="Random" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setNumero" returnType="void" visibility="public">
+          <Argument type="int" name="numero"/>
+        </Method>
+        <Method name="getNumero" returnType="int" visibility="public"/>
+        <Method name="generarNumero" returnType="void" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Bingo" package="parctica9" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="tablero" type="Tablero" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Tablero" name="tablero"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="jugar" returnType="void" visibility="public"/>
+        <Method name="pausar" returnType="void" visibility="public"/>
+        <Method name="continuar" returnType="boolean" visibility="public"/>
+        <Method name="terminar" returnType="void" visibility="public"/>
+        <Method name="comenzar" returnType="void" visibility="public"/>
+        <Method name="reiniciar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Controlador" package="parctica9" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Methods>
+        <Method name="getAutorizacion" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="decir" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="decir" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int" name="s"/>
+        </Method>
+      </Methods>
+    </Interface>
+    <Interface name="Juego" package="parctica9" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Methods>
+        <Method name="jugar" returnType="void" visibility="public"/>
+        <Method name="pausar" returnType="void" visibility="public"/>
+        <Method name="continuar" returnType="boolean" visibility="public"/>
+        <Method name="terminar" returnType="void" visibility="public"/>
+        <Method name="comenzar" returnType="void" visibility="public"/>
+        <Method name="reiniciar" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Class name="Parctica9" package="parctica9" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Tablero" package="parctica9" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="lblActual" type="JLabel" visibility="package"/>
+        <Field name="etiqueta" type="JLabel[]" visibility="package"/>
+        <Field name="numActual" type="int" visibility="package"/>
+        <Field name="random" type="Aleatorio" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="mostrar" returnType="void" visibility="public"/>
+        <Method name="limpiar" returnType="void" visibility="public"/>
+        <Method name="addNumActual" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="tablero" source="parctica9.Bingo" target="parctica9.Tablero" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="parctica9.Bingo" target="parctica9.Juego"/>
+    <HasRelation name="random" source="parctica9.Tablero" target="parctica9.Aleatorio" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

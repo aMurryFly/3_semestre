@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="UMLBingo">
+  <ClassDiagramComponents>
+    <Interface name="Juego" package="" visibility="public" xPosition="37.0" yPosition="66.0">
+      <Methods>
+        <Method name="jugar" returnType="void" visibility="public"/>
+        <Method name="pausar" returnType="void" visibility="public"/>
+        <Method name="continuar" returnType="boolean" visibility="public"/>
+        <Method name="terminar" returnType="void" visibility="public"/>
+        <Method name="comenzar" returnType="void" visibility="public"/>
+        <Method name="reiniciar" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Class name="Bingo" package="" visibility="public" xPosition="303.0" yPosition="32.0">
+      <Fields>
+        <Field name="tablero" type="Tablero" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Tablero" name="tablero"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="jugar" returnType="void" visibility="public"/>
+        <Method name="pausar" returnType="void" visibility="public"/>
+        <Method name="continuar" returnType="boolean" visibility="public"/>
+        <Method name="terminar" returnType="void" visibility="public"/>
+        <Method name="comenzar" returnType="void" visibility="public"/>
+        <Method name="reiniciar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Tablero" package="" visibility="public" xPosition="305.0" yPosition="392.0">
+      <Fields>
+        <Field name="lblActual" type="jLabel" visibility="private"/>
+        <Field name="etiqueta" type="jLabel[]" visibility="private"/>
+        <Field name="numActual" type="int" visibility="private"/>
+        <Field name="random" type="Aleatorio" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="mostrar" returnType="void" visibility="public"/>
+        <Method name="limpiar" returnType="void" visibility="public"/>
+        <Method name="addNumActual" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Aleatorio" package="" visibility="public" xPosition="10.0" yPosition="400.0">
+      <Fields>
+        <Field name="numero" type="int" visibility="private"/>
+        <Field name="random" type="Random" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setNumero" returnType="int" visibility="public">
+          <Argument type="int" name="numero"/>
+        </Method>
+        <Method name="getNumero" returnType="int" visibility="public"/>
+        <Method name="generarNumero" returnType="void" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Controlador" package="" visibility="public" xPosition="488.0" yPosition="262.0">
+      <Methods>
+        <Method name="getAutorizacion" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="decir" returnType="String" visibility="public" isStatic="true">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="decir" returnType="int" visibility="public" isStatic="true">
+          <Argument type="int" name="s"/>
+        </Method>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Bingo" target="Juego"/>
+    <HasRelation name="tablero" source="Bingo" target="Tablero" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="aleatorio" source="Tablero" target="Aleatorio" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
