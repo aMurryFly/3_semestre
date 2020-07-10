@@ -120,7 +120,7 @@ Los pilares de esta materia son los siguientes:
 
 - Modelos probabilísticos de fenómenos aleatorios discretos y continuos (Este es el tema más importante para Estadística, temas como las distintas Distribuciones serán lo fundamental y del diario).
 
-## Cultura y Comunicación*
+## Cultura y Comunicación
 
 ### Profesora Araceli Larrion Gallegos: 
 
