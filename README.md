@@ -2,14 +2,7 @@
 
 Repositorio de todo el material del 3° semestre de Ingeniería en Computación, Facultad de Ingeniería, UNAM
 
-## Estructura de Datos y Algoritmos 2
-
-### Profesor Edgar Tista G.
-
-Al igual que EDA1, decidí tomar la materia con el profesor Tista, sin duda no te arrepentirás de esa decisión.
-
-Su forma de evaluar varia bastante a EDA 1, sobre todo porque en EDA 2 ya considera 3 proyectos relacionados a los temas que se verán en el curso .  
-
+## Estructura de Datos y Algoritmos 2 - Edgar Tista G.
 ### Acerca de la materia:
 
 EDA 2 es una materia realmente interesante y que sin duda a pesar de que muchos temas de los que se ven "ya están hechos en el mundo de la programación", sin duda hace ampliar tu visión como desarrollador.
@@ -25,16 +18,7 @@ La materia tiene como pilares principales:
 - Archivos
 - Paralelismo 
 
-## POO
-
-### Profesor Alberto Axcana De La Mora P: 
-
-De los mejores profesores que he tenido en la facultad, la verdad es que no sólo verás a un gran profesor enfrente de ti sino a un gran amigo.
-    
-Su forma de evaluar la verdad es bastante simple, concentrate en sacar un buen laboratorio y en hacer todas las tareas que te deje.
-
-Algo más que puedo decir es que sin duda además de aprender POO, te da algunos consejos de vida que si los escuchas cambiará tu vida por completo.
-
+## POO - Alberto Axcana De La Mora P: 
 ### Acerca de la materia:
 
 POO a mi forma de ser es una de las 5 materias más importantes de la carrera de computación, y si te gusta programar, la realidad es que la Programación Orientada a Objetos es el paradigma que prácticamente se utiliza en cualquier lenguaje de programación moderno, además que mediante este paradigma el asimilar distintos Patrones de Diseños es bastante fácil.
@@ -48,14 +32,7 @@ Prácticamente la materia se divide de la siguiente manera:
 - Una pobre y pequeña introducción a Patrones de diseño
 
 
-## Ecuaciones Diferenciales: 
-
-### Profesora Margarita Ramirez Galindo: 
-
-Una profesora en toda la extensión de la palabra, la profesora Margarita es la mejor opción para aprender ecuaciones diferenciales. 
-
-Un consejo que puedo dar es que cualquier duda por muy pequeña que sea se lo hagas saber sobre todo porque ya sea durante clase o en su cúbilo, ella te va a ayudar.
-
+## Ecuaciones Diferenciales - Margarita Ramirez Galindo: 
 ### Acerca de la materia:
 
 
@@ -74,14 +51,7 @@ Los pilares de esta materia son los siguientes:
 - Serie de Fourier, lo más importante aquí es saber identificar cada uno de sus casos e integrar (Este tema se retoma en Matemáticas Avanzadas).
 - Ecuaciones Diferenciales en Derivadas Parciales (Este tema es importante sobre todo para los últimos temas de Análisis Numérico). 
 
-## Cálculo Vectorial
-
-### Profesor Germán Ramón Arconada Rey: 
-
-El profesor Germán es uno de los profesores con mejor actitud y ganas de dar clases, sin duda será el profesor que recomendaré para esta materia.
-
-Además de ser un profesor sumamente tranquilo y buena onda, realmente es muy ordenado y metódico lo cual se agradece sobre todo por la dificultad de la materia.
-
+## Cálculo Vectorial - Germán Ramón Arconada Rey: 
 ### Acerca de la materia:
 
 La verdad entre Ecuaciones Diferenciales y Cálculo Vectorial no sabría decir cuál es más dificil, sin duda Vectorial resulta un reto a vencer dentro de las materia de la carrera.
@@ -98,14 +68,7 @@ Los pilares de esta materia son los siguientes:
 - Integrales múltiples, la verdades que este tema también se ve en Probabilidad pero en Vectorial tiene una aplicación bastante visible.
 
 
-## Probabilidad
-
-### Profesora Elia Inés Luna Ceballos: 
-
-Elia Luna sin duda alguna es la mejor profesora que podrás escoger en toda la carrera, es el balance perfecto entre "pasar chido" una materia y aprender muchísimo.
-
-Además de ser una profesora sumamente atenta y dispuesta a ayudar, podrás ver enfrente a un ser humano que da clases por el simple "amor al arte".
-
+## Probabilidad - Elia Inés Luna Ceballos: 
 ### Acerca de la materia:
 
 Probabilidad es una materia que exige muchísimo razonamiento y nivel de abstracción, a mi parecer es incluso más complicada que Diferencial o Vectorial.
@@ -120,14 +83,7 @@ Los pilares de esta materia son los siguientes:
 
 - Modelos probabilísticos de fenómenos aleatorios discretos y continuos (Este es el tema más importante para Estadística, temas como las distintas Distribuciones serán lo fundamental y del diario).
 
-## Cultura y Comunicación
-
-### Profesora Araceli Larrion Gallegos: 
-
-De las profesoras con mejores intenciones de enseñar una materia que la gran mayoría rechaza e incluso no da importancia, la verdad es que ella da a destacar la relevancia de la materia a través de platicas, exposiciones e incluso recorridos en la facultad y la universidad.
-
-Su forma de evaluar se basa en dos exámenes realmente fáciles, la verdad es que en sus mismas clases ves las respuestas explícitamente.
-
+## Cultura y Comunicación - Araceli Larrion Gallegos: 
 ### Acerca de la materia:
 
 Esta materia sin duda es un gran apoyo a tu formación como ser humano ya que se ve desde la importancia de la cultura en el ser humano hasta como esta impacta en la vida cotidiana.
