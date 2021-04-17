@@ -10,7 +10,7 @@ El presente repositorio incluye todo el material de las materias tomadas en mi t
 Para cualquier duda o aclaración puedes levantar un issue en el presente repositorio o mandarme un correo: alfonsomvmx@outlook.com
 
 
-### Profesores y materias 
+### Profesores y materias  
 
 - Estructura de Datos y Algoritmos 2 | Edgar Tista G
 - POO | Alberto Axcana De La Mora P
