@@ -12,7 +12,6 @@ Para cualquier duda o aclaración puedes levantar un issue en el presente reposi
 
 ### Profesores y materias  
 
-- Estructura de Datos y Algoritmos 2 | Edgar Tista G
 - POO | Alberto Axcana De La Mora P
 - Ecuaciones Diferenciales | Margarita Ramirez Galindo
 - Cálculo Vectorial | Germán Ramón Arconada Rey
